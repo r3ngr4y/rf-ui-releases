@@ -7,7 +7,7 @@ Downloads: [latest release](../../releases/latest)
 ---
 
 ## Русский
-
+![Settings](images/settings.webp)
 ### Что это
 Небольшая DLL (`dinput8.dll`), которая кладётся в папку клиента и добавляет гибкую настройку интерфейса: свои панели быстрых слотов, перенос баффов, свой HUD статуса, кнопки, оптимизацию свечений. Всё настраивается прямо в игре. Конфиги хранятся локально в папке с клиентом.
 
@@ -26,6 +26,7 @@ Downloads: [latest release](../../releases/latest)
 * Автокаст - кликом Ctrl + ПКМ включает автоматическое применение макроса (альтернатива RfUfree). Автоматически выключается при релоге и выходе.
 * Смена позиции и настройка отображения бафов, дебафов, рас бафа, поддержки и допингов.
 * Режим редактирования - можно перетащить все элементы нового UI, прижать к соседям, выровнять по сетке или поставить в произвольное место зажав Shift.
+![Edit mode](images/edit-mode.webp)
 * Режим клавиатуры сам включается при входе.
 * Можно скрыть панель "Ресурс руды".
 * Эскпорт и импорт настроек, несколько цветовых схем, русский и английский язык.
@@ -35,12 +36,14 @@ Downloads: [latest release](../../releases/latest)
 * Добавлена возможность отключать и включать обратно конкретные типы свечения прямо в игре.
 * Добавлена возможность сделать три пресета свечения.
 * В меню добавлена кнопка цикличного переключения пресетов.
+![Glow preset](images/glow-preset.png)
 
 ### Установка
 
 1. Закройте игру и лаунчер.
 2. Скопируйте `dinput8.dll` в папку клиента, туда, где лежит `RF_Online_4gb.bin`.
 3. В настройках лаунчера включите RFOnline 4gb - без него работать не будет (пока что).
+![RFOnline 4gb in the launcher](images/launcher-4gb.png)
 4. Запустите игру как обычно через лаунчер.
 5. После входа в мир в правом нижнем углу появится маленькая кнопка 28×28 px. В папке клиента появятся `rf-ui.log` и, после первой настройки, `rf-ui.ini`.
 6. Удаление: закройте игру и удалите `dinput8.dll` (а также `rf-ui.ini` и `rf-ui.log`, если не нужны настройки).
@@ -89,3 +92,5 @@ A small DLL (`dinput8.dll`) that goes into the client folder and adds flexible i
 6. Uninstall: close the game and delete `dinput8.dll` (and also `rf-ui.ini` and `rf-ui.log` if you don’t need the settings).
 
 If `rf-ui.log` says that the client is unknown and the features are disabled, it means you have a different client version: the mod does nothing and the game runs normally.
+
+[![Donate](images/donate.png)](https://boosty.to/r3ngr4y)
