@@ -94,3 +94,7 @@ A small DLL (`dinput8.dll`) that goes into the client folder and adds flexible i
 If `rf-ui.log` says that the client is unknown and the features are disabled, it means you have a different client version: the mod does nothing and the game runs normally.
 
 [![Donate](images/donate.png)](https://boosty.to/r3ngr4y)
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE): free to use and redistribute for noncommercial purposes; commercial use requires the author's permission. Third-party libraries (Dear ImGui, MinHook) are under their own licenses, see `LICENSES.txt` in the archive.
