@@ -22,6 +22,7 @@ Downloads: [latest release](../../releases/latest)
 * Сами ячейки повторяют функционал оригинальных, каждую ячейку можно назначить за своей кнопкой, либо комбинацией.
 * Назначенные клавиши новых ячеек не конфликтуют с стандартной раскладкой панели и раскладкой биндов церба, при переключении на классический интерфейс работают они.
 * Кончилась расходка - ячейка серая, но содержимое не теряется, когда предмет появится в инвентаре он станет доступен с панели.
+* Добавлен счётчик количества предметов на ячейках панели (допинги, телепорты, банки).
 * При заходе нового персонажа сразу появляется панель 5×10, на неё один раз раскладывается ваша родная панель быстрых слотов. Родную панель мод скрывает. Так же можно скопировать оригинальную панель кнопкой в настройках.
 * Автокаст - кликом Ctrl + ПКМ включает автоматическое применение макроса (альтернатива RfUfree). Автоматически выключается при релоге и выходе.
 * Смена позиции и настройка отображения бафов, дебафов, рас бафа, поддержки и допингов.
@@ -68,6 +69,7 @@ A small DLL (`dinput8.dll`) that goes into the client folder and adds flexible i
 * The cells repeat the functionality of the original ones; each cell can be bound to its own key or a key combination.
 * Keys assigned to the new cells don’t conflict with the standard panel layout or the Cerberus keybind layout; when you switch to the classic interface, the native ones work.
 * Out of consumables - the cell turns gray, but its content is not lost; when the item appears in your inventory, it becomes available from the panel again.
+* Added an item count on the panel cells (dopings, teleports, jars).
 * When a new character logs in, a 5×10 panel appears right away, and your native quick-slot panel is laid out onto it once. The mod hides the native panel. You can also copy the original panel with a button in the settings.
 * Autocast - Ctrl + RMB enables automatic use of a macro (an alternative to RfUfree). It is turned off automatically on relog and on exit.
 * Change the position and display settings of buffs, debuffs, race buff, support and doping.
