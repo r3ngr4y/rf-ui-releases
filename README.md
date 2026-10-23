@@ -38,7 +38,7 @@ Downloads: [latest release](../../releases/latest)
 * Добавлена возможность сделать три пресета свечения.
 * В меню добавлена кнопка цикличного переключения пресетов.
 ![Glow preset](images/glow-preset.png)
-
+* Разблокировка FPS
 ### Установка
 
 1. Закройте игру и лаунчер.
@@ -83,6 +83,7 @@ A small DLL (`dinput8.dll`) that goes into the client folder and adds flexible i
 * Added the ability to turn specific glow types off and back on right in the game.
 * Added the ability to make three glow presets.
 * Added a menu button that cycles through the presets.
+* Added FPS unlock.
 
 ### Installation
 
